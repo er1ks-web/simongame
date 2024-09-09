@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+#start-btn {
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: #011F3F;
+  color: #FEF2BF;
+  border: #FEF2BF solid 5px;
+}
+
+
+.scoretracker{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#highscore{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+  bottom: 50px;
+  text-align: left;
+}
+
+#previous-score{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+  bottom: 50px;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Modal container */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+#rules-btn {
+  padding: 10px 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: #011F3F;
+  color: #FEF2BF;
+  border: #FEF2BF solid 5px;
+}
+
+/* Modal content box */
+.modal-content {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #011F3F; /* Same dark background as buttons */
+  margin: 10% auto; /* Center the modal */
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%; /* 80% of the screen width */
+  text-align: center;
+  color: #FEF2BF; /* Matching text color */
+  border: #FEF2BF solid 5px; /* Adding a similar border to match button */
+}
+
+/* Close button styling */
+.close {
+  margin: 20px 0;
+  background-color: #011F3F; /* Same background color as buttons */
+  color: #FEF2BF; /* Same text color as buttons */
+  padding: 10px 15px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  border: #FEF2BF solid 3px;
+  cursor: pointer;
+}
+
+.close:hover, .close:focus {
+  color: #011F3F;
+  background-color: #FEF2BF; /* Swap colors on hover for effect */
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+
+  <button id="start-btn">Start Game</button>
+
+
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="scoretracker">
+    <h2 id="previous-score">Previous score: 00</h2>
+    <h2 id="highscore">Highscore: 00</h2>
+  </div>
+
+  <!-- Rules Button -->
+<button id="rules-btn">Rules</button>
+
+<!-- Rules Modal -->
+<div id="rules-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <h2 style="margin: 30px;">Game Rules</h2>
+    <p>
+  Welcome to Simon Game! Here's how to play:<br><br>
+  1. Watch carefully! The game will show you a color by lighting up one of the buttons.<br><br>
+  2. Your job is to remember the color pattern and click the buttons in the same order.<br><br>
+  3. As you get the pattern right, the game will add one more color to the pattern, making it harder!<br><br>
+  4. If you make a mistake and click the wrong button, the game will end, and you can try again.<br><br>
+  5. Keep playing and try to beat your high score by remembering longer and longer patterns!<br><br>
+  Have fun, and good luck!
+</p>
+
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
